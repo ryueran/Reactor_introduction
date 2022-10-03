@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/muzi/Training/EventLoop/build",
+  "command": "/bin/g++-9   -I/home/muzi/Training/EventLoop/src_test -I/home/muzi/Training/EventLoop/Threads::Threads  -g   -o CMakeFiles/Event_test.dir/src_test/main.cpp.o -c /home/muzi/Training/EventLoop/src_test/main.cpp",
+  "file": "/home/muzi/Training/EventLoop/src_test/main.cpp"
+}
+]

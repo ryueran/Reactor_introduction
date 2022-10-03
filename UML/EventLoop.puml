@@ -1,0 +1,9 @@
+@startuml EventLoop
+class EventLoop {
+    __ public __
+    void updateHandler(Handler *)
+    void loop()
+    __ private __
+    vector<Epoller*> poller
+}
+@enduml

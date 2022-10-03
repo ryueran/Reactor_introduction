@@ -1,0 +1,14 @@
+@startuml Epoller
+class Epoller {
+    __ public __
+    void update(Handler *)
+    vector<Handler*> fillActiveChannels(int)
+    vector<Handler*> poll()
+
+    __ private __
+    int epoll_fd_
+    int number_active_events = 16
+    vector<epoll_event> active_events_
+    vector<Handler*> handler_list_
+}
+@enduml

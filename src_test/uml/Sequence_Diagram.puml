@@ -1,0 +1,11 @@
+@startuml Reactor
+participant main_program
+participant Event_Handler
+participant Reactor
+participant Handles
+main_program -> Reactor: Initiation of Reactor
+main_program -> Reactor: register_handler
+Reactor -> Handles: select (same function as epoll_wait)
+Handles -> Reactor: select finishes
+Reactor -> Event_Handler: handle_events
+@enduml
